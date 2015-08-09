@@ -50,7 +50,6 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var subtractBtn: WKInterfaceButton!
     @IBOutlet var additionBtn: WKInterfaceButton!
     
-    
     @IBAction func zero() {
         addToDisplay("0")
     }
@@ -94,21 +93,25 @@ class InterfaceController: WKInterfaceController {
     @IBAction func addition() {
         selectedOperator = .Addition
         changeBackgroundColours(additionBtn)
+        resetDecimal()
     }
     
     @IBAction func subtract() {
         selectedOperator = .Subtract
         changeBackgroundColours(subtractBtn)
+        resetDecimal()
     }
     
     @IBAction func multiply() {
         selectedOperator = .Multiply
         changeBackgroundColours(multiplyBtn)
+        resetDecimal()
     }
     
     @IBAction func divide() {
         selectedOperator = .Divide
         changeBackgroundColours(divideBtn)
+        resetDecimal()
     }
     
     @IBAction func equals() {
@@ -130,6 +133,17 @@ class InterfaceController: WKInterfaceController {
         if !usedDecimal {
             addToDisplay(".")
             usedDecimal = true
+        }
+    }
+    
+    @IBAction func clear() {
+        resultLabel.setText("0")
+        firstNum = String()
+        secondNum = String()
+        selectedOperator = nil
+        resetDecimal()
+        for button in operatorButtons {
+            resetButtonBackgroundColour(button)
         }
     }
     
@@ -178,5 +192,9 @@ class InterfaceController: WKInterfaceController {
     
     func resetButtonBackgroundColour(button: WKInterfaceButton) {
         button.setBackgroundColor(UIColor.darkGrayColor())
+    }
+    
+    func resetDecimal() {
+        usedDecimal = false
     }
 }
