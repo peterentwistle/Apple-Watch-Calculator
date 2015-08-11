@@ -197,4 +197,5 @@ class InterfaceController: WKInterfaceController {
     func resetDecimal() {
         usedDecimal = false
     }
+    
 }
