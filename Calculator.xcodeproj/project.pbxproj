@@ -223,6 +223,7 @@
 				D059E5441B76ADB0001E76EC /* Frameworks */,
 				D059E5451B76ADB0001E76EC /* Resources */,
 				D059E5931B76ADB1001E76EC /* Embed Watch Content */,
+				D078E11E1B7819DD00621B1F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -294,6 +295,7 @@
 				D059E57A1B76ADB1001E76EC /* Sources */,
 				D059E57B1B76ADB1001E76EC /* Frameworks */,
 				D059E57C1B76ADB1001E76EC /* Resources */,
+				D078E11F1B7819F500621B1F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -397,6 +399,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D078E11E1B7819DD00621B1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		D078E11F1B7819F500621B1F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D059E5431B76ADB0001E76EC /* Sources */ = {
@@ -718,6 +749,7 @@
 				D059E58E1B76ADB1001E76EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -726,6 +758,7 @@
 				D059E5921B76ADB1001E76EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
@@ -734,6 +767,7 @@
 				D059E5961B76ADB1001E76EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D059E5971B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +776,7 @@
 				D059E5991B76ADB1001E76EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D059E59A1B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +785,7 @@
 				D059E59C1B76ADB1001E76EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

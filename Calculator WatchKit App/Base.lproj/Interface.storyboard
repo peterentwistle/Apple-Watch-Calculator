@@ -10,9 +10,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Calculator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="Kco-U2-T51">
+                        <group width="1" alignment="left" id="Kco-U2-T51">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="÷" id="wwT-F4-xK8">
+                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="÷" id="wwT-F4-xK8">
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="divide" destination="AgC-eL-Hgc" id="1Gr-po-7L7"/>
@@ -21,21 +21,21 @@
                                 <label width="0.59999999999999998" alignment="center" verticalAlignment="bottom" text="0" textAlignment="right" id="qOJ-5J-pLs"/>
                             </items>
                         </group>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="WbW-DK-4HJ">
+                        <group width="1" alignment="left" id="WbW-DK-4HJ">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="x" id="AC8-fh-xTv">
+                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="x" id="AC8-fh-xTv">
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="multiply" destination="AgC-eL-Hgc" id="LzW-J8-CcQ"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="-" id="Qj4-cR-TFa">
+                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="-" id="Qj4-cR-TFa">
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="subtract" destination="AgC-eL-Hgc" id="Xbg-5f-93Y"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="+" id="VjG-JI-Ngy">
+                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="+" id="VjG-JI-Ngy">
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <connections>
                                         <action selector="addition" destination="AgC-eL-Hgc" id="vCs-07-faz"/>
@@ -43,7 +43,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="16b-H1-i8L">
+                        <group width="1" alignment="left" id="16b-H1-i8L">
                             <items>
                                 <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="7" id="2Hq-d6-8tE">
                                     <connections>
@@ -62,7 +62,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="Hiu-7h-Ny1">
+                        <group width="1" alignment="left" id="Hiu-7h-Ny1">
                             <items>
                                 <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="4" id="igD-b2-awd">
                                     <connections>
@@ -81,7 +81,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="xqg-G9-aH3">
+                        <group width="1" alignment="left" id="xqg-G9-aH3">
                             <items>
                                 <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="1" id="t5y-YA-ozc">
                                     <connections>
@@ -100,7 +100,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" alignment="left" verticalAlignment="bottom" id="KRf-i4-40K">
+                        <group width="1" alignment="left" id="KRf-i4-40K">
                             <items>
                                 <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="0" id="Nbl-EA-Bk5">
                                     <connections>
