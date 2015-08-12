@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WatchCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,14 +18,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaq-Z0-gnE">
-                                <rect key="frame" x="68" y="112" width="465" height="81"/>
+                                <rect key="frame" x="48" y="145" width="505" height="174"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Welcome to Watch Calculator. This is the iPhone companion app, the watch app should install automatically. If the app does not install you can install it manually in the apple watch app on your iPhone.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
-                                <rect key="frame" x="235" y="28" width="131" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
+                                <rect key="frame" x="255" y="28" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="68C-Nu-75I"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -33,12 +36,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jaq-Z0-gnE" secondAttribute="bottom" constant="407" id="5fm-Oy-qoK"/>
-                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="63" id="EOQ-84-sqC"/>
-                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="48" id="UCq-6f-eg6"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="UKX-If-b6k"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fGJ-NJ-2Xt"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="rD5-Yb-rML"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jaq-Z0-gnE" secondAttribute="bottom" constant="281" id="1iJ-c8-2uE"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="5yz-B1-355"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="KpL-Kd-olj"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="Q7p-2e-NzM"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="96" id="S9f-dD-13l"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h5Y-Uz-XyZ"/>
                         </constraints>
                     </view>
                 </viewController>

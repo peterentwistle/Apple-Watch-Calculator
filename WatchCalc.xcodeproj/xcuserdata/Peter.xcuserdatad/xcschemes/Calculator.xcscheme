@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D059E5461B76ADB0001E76EC"
-               BuildableName = "Calculator.app"
-               BlueprintName = "Calculator"
-               ReferencedContainer = "container:Calculator.xcodeproj">
+               BuildableName = "WatchCalc.app"
+               BlueprintName = "WatchCalc"
+               ReferencedContainer = "container:WatchCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D059E55A1B76ADB0001E76EC"
                BuildableName = "CalculatorTests.xctest"
                BlueprintName = "CalculatorTests"
-               ReferencedContainer = "container:Calculator.xcodeproj">
+               ReferencedContainer = "container:WatchCalc.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "D059E5651B76ADB0001E76EC"
                BuildableName = "CalculatorUITests.xctest"
                BlueprintName = "CalculatorUITests"
-               ReferencedContainer = "container:Calculator.xcodeproj">
+               ReferencedContainer = "container:WatchCalc.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E5461B76ADB0001E76EC"
-            BuildableName = "Calculator.app"
-            BlueprintName = "Calculator"
-            ReferencedContainer = "container:Calculator.xcodeproj">
+            BuildableName = "WatchCalc.app"
+            BlueprintName = "WatchCalc"
+            ReferencedContainer = "container:WatchCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E5461B76ADB0001E76EC"
-            BuildableName = "Calculator.app"
-            BlueprintName = "Calculator"
-            ReferencedContainer = "container:Calculator.xcodeproj">
+            BuildableName = "WatchCalc.app"
+            BlueprintName = "WatchCalc"
+            ReferencedContainer = "container:WatchCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E5461B76ADB0001E76EC"
-            BuildableName = "Calculator.app"
-            BlueprintName = "Calculator"
-            ReferencedContainer = "container:Calculator.xcodeproj">
+            BuildableName = "WatchCalc.app"
+            BlueprintName = "WatchCalc"
+            ReferencedContainer = "container:WatchCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
