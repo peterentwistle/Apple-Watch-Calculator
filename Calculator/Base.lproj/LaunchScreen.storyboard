@@ -19,13 +19,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="HRC-wj-9bI">
                                 <rect key="frame" x="149" y="163" width="303" height="205"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="303" id="k3t-Pj-v39"/>
+                                    <constraint firstAttribute="width" constant="303" id="FN9-cc-2Nh"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JI-CZ-Ys6">
-                                <rect key="frame" x="215" y="365" width="171" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JI-CZ-Ys6">
+                                <rect key="frame" x="177" y="366" width="246" height="89"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="171" id="mZf-7Y-qyL"/>
+                                    <constraint firstAttribute="width" constant="246" id="7P0-dj-1sK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.55294117649999996" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -35,12 +35,12 @@
                         <animations/>
                         <color key="backgroundColor" red="0.84705882349999995" green="0.81960784310000001" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6JI-CZ-Ys6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="345" id="AGp-bf-JjE"/>
-                            <constraint firstItem="HRC-wj-9bI" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="143" id="GaQ-HQ-Tug"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6JI-CZ-Ys6" secondAttribute="bottom" constant="193" id="JSW-e1-07N"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="HRC-wj-9bI" secondAttribute="bottom" constant="232" id="JuK-X4-BBS"/>
-                            <constraint firstItem="HRC-wj-9bI" firstAttribute="centerX" secondItem="6JI-CZ-Ys6" secondAttribute="centerX" id="MdU-WT-ocZ"/>
-                            <constraint firstItem="HRC-wj-9bI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jNb-Vd-myY"/>
+                            <constraint firstItem="6JI-CZ-Ys6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FCj-HF-Guj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="HRC-wj-9bI" secondAttribute="bottom" constant="232" id="HbO-9U-RWZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6JI-CZ-Ys6" secondAttribute="bottom" constant="145" id="Ypz-zs-v94"/>
+                            <constraint firstItem="HRC-wj-9bI" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="143" id="cVe-GO-Xde"/>
+                            <constraint firstItem="6JI-CZ-Ys6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="346" id="fSN-iK-gDU"/>
+                            <constraint firstItem="6JI-CZ-Ys6" firstAttribute="centerX" secondItem="HRC-wj-9bI" secondAttribute="centerX" id="o43-5H-WgB"/>
                         </constraints>
                     </view>
                 </viewController>
