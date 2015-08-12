@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +15,33 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="HRC-wj-9bI">
+                                <rect key="frame" x="149" y="163" width="303" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="303" id="k3t-Pj-v39"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JI-CZ-Ys6">
+                                <rect key="frame" x="215" y="365" width="171" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="mZf-7Y-qyL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.55294117649999996" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.84705882349999995" green="0.81960784310000001" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6JI-CZ-Ys6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="345" id="AGp-bf-JjE"/>
+                            <constraint firstItem="HRC-wj-9bI" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="143" id="GaQ-HQ-Tug"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6JI-CZ-Ys6" secondAttribute="bottom" constant="193" id="JSW-e1-07N"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="HRC-wj-9bI" secondAttribute="bottom" constant="232" id="JuK-X4-BBS"/>
+                            <constraint firstItem="HRC-wj-9bI" firstAttribute="centerX" secondItem="6JI-CZ-Ys6" secondAttribute="centerX" id="MdU-WT-ocZ"/>
+                            <constraint firstItem="HRC-wj-9bI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jNb-Vd-myY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon" width="256" height="256"/>
+    </resources>
 </document>

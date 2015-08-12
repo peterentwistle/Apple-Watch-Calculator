@@ -32,16 +32,6 @@
                                     <constraint firstAttribute="width" constant="281" id="oWG-jn-Qq6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
-                                <rect key="frame" x="245" y="41" width="111" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="111" id="0ub-HL-ji0"/>
-                                    <constraint firstAttribute="height" constant="21" id="qgv-YF-guM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.55294117647058827" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juN-Zr-aq3">
                                 <rect key="frame" x="216" y="524" width="169" height="30"/>
                                 <constraints>
@@ -53,19 +43,29 @@
                                     <action selector="copyBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPu-7d-oou"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
+                                <rect key="frame" x="206" y="41" width="188" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="5u2-xv-z6s"/>
+                                    <constraint firstAttribute="height" constant="31" id="XU0-My-sUt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.55294117647058827" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.84705882352941175" green="0.81960784313725488" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="BoH-rp-cjz" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="0D9-fY-fvc"/>
                             <constraint firstItem="juN-Zr-aq3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9hu-z1-h93"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="JKa-Da-Pay"/>
                             <constraint firstItem="jaq-Z0-gnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="KKk-lE-nBy"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="65" id="Xnd-iP-Swa"/>
                             <constraint firstItem="juN-Zr-aq3" firstAttribute="top" secondItem="BoH-rp-cjz" secondAttribute="bottom" constant="2" id="YmT-YB-WF3"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="Yrw-It-CeN"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="juN-Zr-aq3" secondAttribute="bottom" constant="46" id="a4j-BB-a6j"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="cir-mZ-cNv"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BoH-rp-cjz" secondAttribute="bottom" constant="78" id="dt7-zY-ltK"/>
                             <constraint firstItem="BoH-rp-cjz" firstAttribute="top" secondItem="jaq-Z0-gnE" secondAttribute="bottom" constant="30" id="ejw-On-ewe"/>
-                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="75" id="idh-1s-Rd4"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="exE-f6-gTi"/>
                             <constraint firstItem="juN-Zr-aq3" firstAttribute="centerX" secondItem="BoH-rp-cjz" secondAttribute="centerX" id="yVR-sW-sMH"/>
                         </constraints>
                     </view>
