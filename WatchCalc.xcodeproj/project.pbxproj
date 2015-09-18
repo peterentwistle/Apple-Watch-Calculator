@@ -14,7 +14,7 @@
 		D059E5551B76ADB0001E76EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059E5531B76ADB0001E76EC /* LaunchScreen.storyboard */; };
 		D059E5601B76ADB0001E76EC /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E55F1B76ADB0001E76EC /* CalculatorTests.swift */; };
 		D059E56B1B76ADB1001E76EC /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E56A1B76ADB1001E76EC /* CalculatorUITests.swift */; };
-		D059E5701B76ADB1001E76EC /* Calculator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D059E56F1B76ADB1001E76EC /* Calculator WatchKit App.app */; };
+		D059E5701B76ADB1001E76EC /* WatchCalc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */; };
 		D059E5761B76ADB1001E76EC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059E5741B76ADB1001E76EC /* Interface.storyboard */; };
 		D059E5781B76ADB1001E76EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D059E5771B76ADB1001E76EC /* Assets.xcassets */; };
 		D059E57F1B76ADB1001E76EC /* Calculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D059E57E1B76ADB1001E76EC /* Calculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -72,7 +72,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D059E5701B76ADB1001E76EC /* Calculator WatchKit App.app in Embed Watch Content */,
+				D059E5701B76ADB1001E76EC /* WatchCalc WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D059E5471B76ADB0001E76EC /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059E5471B76ADB0001E76EC /* WatchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E54A1B76ADB0001E76EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D059E54C1B76ADB0001E76EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D059E54F1B76ADB0001E76EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E56A1B76ADB1001E76EC /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		D059E56C1B76ADB1001E76EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D059E56F1B76ADB1001E76EC /* Calculator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCalc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E5751B76ADB1001E76EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D059E5771B76ADB1001E76EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D059E5791B76ADB1001E76EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -151,10 +151,10 @@
 		D059E5481B76ADB0001E76EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D059E5471B76ADB0001E76EC /* Calculator.app */,
+				D059E5471B76ADB0001E76EC /* WatchCalc.app */,
 				D059E55B1B76ADB0001E76EC /* CalculatorTests.xctest */,
 				D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */,
-				D059E56F1B76ADB1001E76EC /* Calculator WatchKit App.app */,
+				D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */,
 				D059E57E1B76ADB1001E76EC /* Calculator WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D059E5461B76ADB0001E76EC /* Calculator */ = {
+		D059E5461B76ADB0001E76EC /* WatchCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc" */;
 			buildPhases = (
 				D059E5431B76ADB0001E76EC /* Sources */,
 				D059E5441B76ADB0001E76EC /* Frameworks */,
@@ -230,9 +230,9 @@
 			dependencies = (
 				D059E5721B76ADB1001E76EC /* PBXTargetDependency */,
 			);
-			name = Calculator;
+			name = WatchCalc;
 			productName = Calculator;
-			productReference = D059E5471B76ADB0001E76EC /* Calculator.app */;
+			productReference = D059E5471B76ADB0001E76EC /* WatchCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D059E55A1B76ADB0001E76EC /* CalculatorTests */ = {
@@ -271,9 +271,9 @@
 			productReference = D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		D059E56E1B76ADB1001E76EC /* Calculator WatchKit App */ = {
+		D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */;
+			buildConfigurationList = D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc WatchKit App" */;
 			buildPhases = (
 				D059E56D1B76ADB1001E76EC /* Resources */,
 				D059E58F1B76ADB1001E76EC /* Embed App Extensions */,
@@ -283,9 +283,9 @@
 			dependencies = (
 				D059E5811B76ADB1001E76EC /* PBXTargetDependency */,
 			);
-			name = "Calculator WatchKit App";
+			name = "WatchCalc WatchKit App";
 			productName = "Calculator WatchKit App";
-			productReference = D059E56F1B76ADB1001E76EC /* Calculator WatchKit App.app */;
+			productReference = D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		D059E57D1B76ADB1001E76EC /* Calculator WatchKit Extension */ = {
@@ -317,6 +317,12 @@
 				TargetAttributes = {
 					D059E5461B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WQG87JK36G;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					D059E55A1B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
@@ -328,13 +334,15 @@
 					};
 					D059E56E1B76ADB1001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WQG87JK36G;
 					};
 					D059E57D1B76ADB1001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WQG87JK36G;
 					};
 				};
 			};
-			buildConfigurationList = D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "WatchCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -347,10 +355,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D059E5461B76ADB0001E76EC /* Calculator */,
+				D059E5461B76ADB0001E76EC /* WatchCalc */,
 				D059E55A1B76ADB0001E76EC /* CalculatorTests */,
 				D059E5651B76ADB0001E76EC /* CalculatorUITests */,
-				D059E56E1B76ADB1001E76EC /* Calculator WatchKit App */,
+				D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */,
 				D059E57D1B76ADB1001E76EC /* Calculator WatchKit Extension */,
 			);
 		};
@@ -412,7 +420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+			shellScript = "";
 		};
 		D078E11F1B7819F500621B1F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -425,7 +433,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -469,17 +477,17 @@
 /* Begin PBXTargetDependency section */
 		D059E55D1B76ADB0001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E5461B76ADB0001E76EC /* Calculator */;
+			target = D059E5461B76ADB0001E76EC /* WatchCalc */;
 			targetProxy = D059E55C1B76ADB0001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5681B76ADB0001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E5461B76ADB0001E76EC /* Calculator */;
+			target = D059E5461B76ADB0001E76EC /* WatchCalc */;
 			targetProxy = D059E5671B76ADB0001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5721B76ADB1001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E56E1B76ADB1001E76EC /* Calculator WatchKit App */;
+			target = D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */;
 			targetProxy = D059E5711B76ADB1001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5811B76ADB1001E76EC /* PBXTargetDependency */ = {
@@ -534,7 +542,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -556,6 +565,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -578,7 +588,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -593,6 +604,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -601,10 +613,13 @@
 		D059E58D1B76ADB1001E76EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -615,10 +630,14 @@
 		D059E58E1B76ADB1001E76EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "a6b644b3-0943-4c76-abef-bd6ae95f7d68";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -630,11 +649,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -646,11 +668,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d8ca40b-7dd6-49ca-b31a-7cdf3fa942b0";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -662,11 +687,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 			};
 			name = Debug;
 		};
@@ -674,11 +703,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
 			};
 			name = Release;
 		};
@@ -686,10 +719,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
 			};
 			name = Debug;
@@ -698,10 +733,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
 			};
 			name = Release;
@@ -709,10 +746,12 @@
 		D059E59B1B76ADB1001E76EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Calculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -721,10 +760,12 @@
 		D059E59C1B76ADB1001E76EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = Calculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -733,7 +774,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "Calculator" */ = {
+		D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "WatchCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E58A1B76ADB1001E76EC /* Debug */,
@@ -751,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator WatchKit App" */ = {
+		D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E5911B76ADB1001E76EC /* Debug */,
@@ -760,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E5951B76ADB1001E76EC /* Debug */,

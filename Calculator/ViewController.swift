@@ -24,6 +24,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func copyBtn(sender: UIButton) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "http://peterentwistle.co.uk")!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
