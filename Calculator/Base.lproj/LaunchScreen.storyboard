@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="width" constant="303" id="FN9-cc-2Nh"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JI-CZ-Ys6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TinyWatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JI-CZ-Ys6">
                                 <rect key="frame" x="177" y="366" width="246" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="246" id="7P0-dj-1sK"/>

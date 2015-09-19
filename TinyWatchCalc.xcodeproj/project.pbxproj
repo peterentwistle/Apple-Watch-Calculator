@@ -14,7 +14,7 @@
 		D059E5551B76ADB0001E76EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059E5531B76ADB0001E76EC /* LaunchScreen.storyboard */; };
 		D059E5601B76ADB0001E76EC /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E55F1B76ADB0001E76EC /* CalculatorTests.swift */; };
 		D059E56B1B76ADB1001E76EC /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E56A1B76ADB1001E76EC /* CalculatorUITests.swift */; };
-		D059E5701B76ADB1001E76EC /* WatchCalc WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */; };
+		D059E5701B76ADB1001E76EC /* TinyWatchCalc.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D059E56F1B76ADB1001E76EC /* TinyWatchCalc.app */; };
 		D059E5761B76ADB1001E76EC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059E5741B76ADB1001E76EC /* Interface.storyboard */; };
 		D059E5781B76ADB1001E76EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D059E5771B76ADB1001E76EC /* Assets.xcassets */; };
 		D059E57F1B76ADB1001E76EC /* Calculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D059E57E1B76ADB1001E76EC /* Calculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -72,7 +72,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D059E5701B76ADB1001E76EC /* WatchCalc WatchKit App.app in Embed Watch Content */,
+				D059E5701B76ADB1001E76EC /* TinyWatchCalc.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D059E5471B76ADB0001E76EC /* WatchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059E5471B76ADB0001E76EC /* TinyWatchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyWatchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E54A1B76ADB0001E76EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D059E54C1B76ADB0001E76EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D059E54F1B76ADB0001E76EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E56A1B76ADB1001E76EC /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		D059E56C1B76ADB1001E76EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCalc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059E56F1B76ADB1001E76EC /* TinyWatchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyWatchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E5751B76ADB1001E76EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D059E5771B76ADB1001E76EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D059E5791B76ADB1001E76EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -151,10 +151,10 @@
 		D059E5481B76ADB0001E76EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D059E5471B76ADB0001E76EC /* WatchCalc.app */,
+				D059E5471B76ADB0001E76EC /* TinyWatchCalc.app */,
 				D059E55B1B76ADB0001E76EC /* CalculatorTests.xctest */,
 				D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */,
-				D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */,
+				D059E56F1B76ADB1001E76EC /* TinyWatchCalc.app */,
 				D059E57E1B76ADB1001E76EC /* Calculator WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D059E5461B76ADB0001E76EC /* WatchCalc */ = {
+		D059E5461B76ADB0001E76EC /* TinyWatchCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc" */;
+			buildConfigurationList = D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "TinyWatchCalc" */;
 			buildPhases = (
 				D059E5431B76ADB0001E76EC /* Sources */,
 				D059E5441B76ADB0001E76EC /* Frameworks */,
@@ -230,9 +230,9 @@
 			dependencies = (
 				D059E5721B76ADB1001E76EC /* PBXTargetDependency */,
 			);
-			name = WatchCalc;
+			name = TinyWatchCalc;
 			productName = Calculator;
-			productReference = D059E5471B76ADB0001E76EC /* WatchCalc.app */;
+			productReference = D059E5471B76ADB0001E76EC /* TinyWatchCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D059E55A1B76ADB0001E76EC /* CalculatorTests */ = {
@@ -271,9 +271,9 @@
 			productReference = D059E5661B76ADB0001E76EC /* CalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */ = {
+		D059E56E1B76ADB1001E76EC /* TinyWatchCalc WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc WatchKit App" */;
+			buildConfigurationList = D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "TinyWatchCalc WatchKit App" */;
 			buildPhases = (
 				D059E56D1B76ADB1001E76EC /* Resources */,
 				D059E58F1B76ADB1001E76EC /* Embed App Extensions */,
@@ -283,9 +283,9 @@
 			dependencies = (
 				D059E5811B76ADB1001E76EC /* PBXTargetDependency */,
 			);
-			name = "WatchCalc WatchKit App";
+			name = "TinyWatchCalc WatchKit App";
 			productName = "Calculator WatchKit App";
-			productReference = D059E56F1B76ADB1001E76EC /* WatchCalc WatchKit App.app */;
+			productReference = D059E56F1B76ADB1001E76EC /* TinyWatchCalc.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		D059E57D1B76ADB1001E76EC /* Calculator WatchKit Extension */ = {
@@ -342,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "WatchCalc" */;
+			buildConfigurationList = D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "TinyWatchCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -355,10 +355,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D059E5461B76ADB0001E76EC /* WatchCalc */,
+				D059E5461B76ADB0001E76EC /* TinyWatchCalc */,
 				D059E55A1B76ADB0001E76EC /* CalculatorTests */,
 				D059E5651B76ADB0001E76EC /* CalculatorUITests */,
-				D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */,
+				D059E56E1B76ADB1001E76EC /* TinyWatchCalc WatchKit App */,
 				D059E57D1B76ADB1001E76EC /* Calculator WatchKit Extension */,
 			);
 		};
@@ -477,17 +477,17 @@
 /* Begin PBXTargetDependency section */
 		D059E55D1B76ADB0001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E5461B76ADB0001E76EC /* WatchCalc */;
+			target = D059E5461B76ADB0001E76EC /* TinyWatchCalc */;
 			targetProxy = D059E55C1B76ADB0001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5681B76ADB0001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E5461B76ADB0001E76EC /* WatchCalc */;
+			target = D059E5461B76ADB0001E76EC /* TinyWatchCalc */;
 			targetProxy = D059E5671B76ADB0001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5721B76ADB1001E76EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D059E56E1B76ADB1001E76EC /* WatchCalc WatchKit App */;
+			target = D059E56E1B76ADB1001E76EC /* TinyWatchCalc WatchKit App */;
 			targetProxy = D059E5711B76ADB1001E76EC /* PBXContainerItemProxy */;
 		};
 		D059E5811B76ADB1001E76EC /* PBXTargetDependency */ = {
@@ -655,7 +655,7 @@
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -674,7 +674,7 @@
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "9d8ca40b-7dd6-49ca-b31a-7cdf3fa942b0";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -694,7 +694,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 			};
 			name = Debug;
@@ -710,7 +710,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
 			};
 			name = Release;
@@ -774,7 +774,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "WatchCalc" */ = {
+		D059E5421B76ADB0001E76EC /* Build configuration list for PBXProject "TinyWatchCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E58A1B76ADB1001E76EC /* Debug */,
@@ -792,7 +792,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc WatchKit App" */ = {
+		D059E5901B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "TinyWatchCalc WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E5911B76ADB1001E76EC /* Debug */,
@@ -801,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "WatchCalc" */ = {
+		D059E5941B76ADB1001E76EC /* Build configuration list for PBXNativeTarget "TinyWatchCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D059E5951B76ADB1001E76EC /* Debug */,
