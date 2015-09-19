@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WatchCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TinyWatchCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -20,22 +20,23 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaq-Z0-gnE">
                                 <rect key="frame" x="48" y="137" width="505" height="174"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="174" id="e78-WS-7e0"/>
+                                    <constraint firstAttribute="height" constant="174" id="7pW-QS-NLG"/>
                                 </constraints>
-                                <string key="text">Welcome to WatchCalc. This is the iPhone companion app, the watch app should install automatically. If the app does not install you can install it manually in the apple watch app on your iPhone.</string>
+                                <string key="text">Welcome to TinyWatchCalc. This is the iPhone companion app, the watch app should install automatically. If the app does not install you can install it manually in the apple watch app on your iPhone.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="BoH-rp-cjz">
                                 <rect key="frame" x="160" y="341" width="281" height="181"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="281" id="oWG-jn-Qq6"/>
+                                    <constraint firstAttribute="width" constant="281" id="HCK-AT-t1k"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juN-Zr-aq3">
                                 <rect key="frame" x="216" y="524" width="169" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="169" id="zph-k1-gMK"/>
+                                    <constraint firstAttribute="width" constant="169" id="4oa-pK-H7t"/>
+                                    <constraint firstAttribute="height" constant="30" id="f9H-eL-0Ye"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="©2015 Peter Entwistle"/>
@@ -43,11 +44,10 @@
                                     <action selector="copyBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPu-7d-oou"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
-                                <rect key="frame" x="206" y="41" width="188" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TinyWatchCalc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-rx-2tv">
+                                <rect key="frame" x="184" y="41" width="232" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="188" id="5u2-xv-z6s"/>
-                                    <constraint firstAttribute="height" constant="31" id="XU0-My-sUt"/>
+                                    <constraint firstAttribute="height" constant="36" id="ccC-LY-S9J"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.55294117647058827" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
@@ -56,17 +56,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.84705882352941175" green="0.81960784313725488" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="BoH-rp-cjz" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="0D9-fY-fvc"/>
-                            <constraint firstItem="juN-Zr-aq3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9hu-z1-h93"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="JKa-Da-Pay"/>
-                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="KKk-lE-nBy"/>
-                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="65" id="Xnd-iP-Swa"/>
-                            <constraint firstItem="juN-Zr-aq3" firstAttribute="top" secondItem="BoH-rp-cjz" secondAttribute="bottom" constant="2" id="YmT-YB-WF3"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="juN-Zr-aq3" secondAttribute="bottom" constant="46" id="a4j-BB-a6j"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BoH-rp-cjz" secondAttribute="bottom" constant="78" id="dt7-zY-ltK"/>
-                            <constraint firstItem="BoH-rp-cjz" firstAttribute="top" secondItem="jaq-Z0-gnE" secondAttribute="bottom" constant="30" id="ejw-On-ewe"/>
-                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="exE-f6-gTi"/>
-                            <constraint firstItem="juN-Zr-aq3" firstAttribute="centerX" secondItem="BoH-rp-cjz" secondAttribute="centerX" id="yVR-sW-sMH"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="top" secondItem="5yL-rx-2tv" secondAttribute="bottom" constant="60" id="4lx-yo-j04"/>
+                            <constraint firstItem="BoH-rp-cjz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="76j-u5-f0H"/>
+                            <constraint firstItem="BoH-rp-cjz" firstAttribute="top" secondItem="jaq-Z0-gnE" secondAttribute="bottom" constant="30" id="7T7-iU-MqG"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="centerX" secondItem="BoH-rp-cjz" secondAttribute="centerX" id="H2P-mJ-msZ"/>
+                            <constraint firstItem="jaq-Z0-gnE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="KP4-fy-Xw2"/>
+                            <constraint firstItem="juN-Zr-aq3" firstAttribute="top" secondItem="BoH-rp-cjz" secondAttribute="bottom" constant="2" id="Mer-r8-szS"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="centerX" secondItem="jaq-Z0-gnE" secondAttribute="centerX" id="Sgk-AV-uDb"/>
+                            <constraint firstItem="juN-Zr-aq3" firstAttribute="centerX" secondItem="BoH-rp-cjz" secondAttribute="centerX" id="hxS-3S-JsL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="juN-Zr-aq3" secondAttribute="bottom" constant="46" id="lZ9-3I-V1c"/>
+                            <constraint firstItem="5yL-rx-2tv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="lcs-fe-nJy"/>
                         </constraints>
                     </view>
                 </viewController>

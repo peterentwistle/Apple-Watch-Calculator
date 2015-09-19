@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-               BuildableName = "WatchCalc WatchKit App.app"
-               BlueprintName = "WatchCalc WatchKit App"
-               ReferencedContainer = "container:WatchCalc.xcodeproj">
+               BuildableName = "TinyWatchCalc.app"
+               BlueprintName = "TinyWatchCalc WatchKit App"
+               ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "D059E57D1B76ADB1001E76EC"
                BuildableName = "Calculator WatchKit Extension.appex"
                BlueprintName = "Calculator WatchKit Extension"
-               ReferencedContainer = "container:WatchCalc.xcodeproj">
+               ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D059E5461B76ADB0001E76EC"
-               BuildableName = "WatchCalc.app"
-               BlueprintName = "WatchCalc"
-               ReferencedContainer = "container:WatchCalc.xcodeproj">
+               BuildableName = "TinyWatchCalc.app"
+               BlueprintName = "TinyWatchCalc"
+               ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-            BuildableName = "WatchCalc WatchKit App.app"
-            BlueprintName = "WatchCalc WatchKit App"
-            ReferencedContainer = "container:WatchCalc.xcodeproj">
+            BuildableName = "TinyWatchCalc.app"
+            BlueprintName = "TinyWatchCalc WatchKit App"
+            ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -86,18 +86,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-            BuildableName = "WatchCalc WatchKit App.app"
-            BlueprintName = "WatchCalc WatchKit App"
-            ReferencedContainer = "container:WatchCalc.xcodeproj">
+            BuildableName = "TinyWatchCalc.app"
+            BlueprintName = "TinyWatchCalc WatchKit App"
+            ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-            BuildableName = "WatchCalc WatchKit App.app"
-            BlueprintName = "WatchCalc WatchKit App"
-            ReferencedContainer = "container:WatchCalc.xcodeproj">
+            BuildableName = "TinyWatchCalc.app"
+            BlueprintName = "TinyWatchCalc WatchKit App"
+            ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -116,18 +116,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-            BuildableName = "WatchCalc WatchKit App.app"
-            BlueprintName = "WatchCalc WatchKit App"
-            ReferencedContainer = "container:WatchCalc.xcodeproj">
+            BuildableName = "TinyWatchCalc.app"
+            BlueprintName = "TinyWatchCalc WatchKit App"
+            ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D059E56E1B76ADB1001E76EC"
-            BuildableName = "WatchCalc WatchKit App.app"
-            BlueprintName = "WatchCalc WatchKit App"
-            ReferencedContainer = "container:WatchCalc.xcodeproj">
+            BuildableName = "TinyWatchCalc.app"
+            BlueprintName = "TinyWatchCalc WatchKit App"
+            ReferencedContainer = "container:TinyWatchCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
