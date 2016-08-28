@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0524A701D738CA500F4716B /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0524A6F1D738CA500F4716B /* DateExtension.swift */; };
+		D0524A741D738E8B00F4716B /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0524A731D738E8B00F4716B /* DateExtensionTests.swift */; };
 		D059E54B1B76ADB0001E76EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E54A1B76ADB0001E76EC /* AppDelegate.swift */; };
 		D059E54D1B76ADB0001E76EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059E54C1B76ADB0001E76EC /* ViewController.swift */; };
 		D059E5501B76ADB0001E76EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D059E54E1B76ADB0001E76EC /* Main.storyboard */; };
@@ -80,6 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0524A6F1D738CA500F4716B /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D0524A731D738E8B00F4716B /* DateExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
 		D059E5471B76ADB0001E76EC /* TinyWatchCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyWatchCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D059E54A1B76ADB0001E76EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D059E54C1B76ADB0001E76EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 				D059E5511B76ADB0001E76EC /* Assets.xcassets */,
 				D059E5531B76ADB0001E76EC /* LaunchScreen.storyboard */,
 				D059E5561B76ADB0001E76EC /* Info.plist */,
+				D0524A6F1D738CA500F4716B /* DateExtension.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			children = (
 				D059E55F1B76ADB0001E76EC /* CalculatorTests.swift */,
 				D059E5611B76ADB0001E76EC /* Info.plist */,
+				D0524A731D738E8B00F4716B /* DateExtensionTests.swift */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -312,12 +318,13 @@
 		D059E53F1B76ADB0001E76EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Peter Entwistle";
 				TargetAttributes = {
 					D059E5461B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = WQG87JK36G;
+						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -326,19 +333,23 @@
 					};
 					D059E55A1B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = D059E5461B76ADB0001E76EC;
 					};
 					D059E5651B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = D059E5461B76ADB0001E76EC;
 					};
 					D059E56E1B76ADB1001E76EC = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = WQG87JK36G;
+						LastSwiftMigration = 0800;
 					};
 					D059E57D1B76ADB1001E76EC = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = WQG87JK36G;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -444,6 +455,7 @@
 			files = (
 				D059E54D1B76ADB0001E76EC /* ViewController.swift in Sources */,
 				D059E54B1B76ADB0001E76EC /* AppDelegate.swift in Sources */,
+				D0524A701D738CA500F4716B /* DateExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0524A741D738E8B00F4716B /* DateExtensionTests.swift in Sources */,
 				D059E5601B76ADB0001E76EC /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,8 +551,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -584,8 +599,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -606,6 +623,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -622,6 +640,7 @@
 				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -640,6 +659,7 @@
 				PROVISIONING_PROFILE = "a6b644b3-0943-4c76-abef-bd6ae95f7d68";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -648,10 +668,10 @@
 		D059E5911B76ADB1001E76EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
@@ -659,6 +679,7 @@
 				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -667,10 +688,10 @@
 		D059E5921B76ADB1001E76EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
@@ -678,6 +699,7 @@
 				PROVISIONING_PROFILE = "9d8ca40b-7dd6-49ca-b31a-7cdf3fa942b0";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -696,6 +718,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "692fd3c1-add0-40b6-ad54-7dddbb928ece";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -712,6 +735,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -725,7 +749,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyWatchCalc.app/TinyWatchCalc";
 			};
 			name = Debug;
 		};
@@ -739,7 +764,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyWatchCalc.app/TinyWatchCalc";
 			};
 			name = Release;
 		};
@@ -751,8 +777,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_TARGET_NAME = Calculator;
+				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinyWatchCalc;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -765,8 +792,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_TARGET_NAME = Calculator;
+				PROVISIONING_PROFILE = "5b918075-8be2-409a-8ad3-f3c2784dfa53";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TinyWatchCalc;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;

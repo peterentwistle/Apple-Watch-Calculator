@@ -24,20 +24,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func copyBtn(sender: UIButton) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://peterentwistle.co.uk")!)
+    @IBOutlet weak var copyBtn: UIButton!
+    
+    @IBAction func copyBtn(_ sender: UIButton) {
+        UIApplication.shared.openURL(URL(string: "http://peterentwistle.co.uk")!)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        copyBtn.setTitle("©\(Date().year) Peter Entwistle", for: .normal)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

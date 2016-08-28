@@ -1,6 +1,6 @@
-//  CalculatorTests.swift
+//  DateExtension.swift
 //
-//  Copyright (c) 2015 Peter Entwistle
+//  Copyright (c) 2016 Peter Entwistle
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -20,30 +20,28 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import XCTest
-@testable import TinyWatchCalc
+import Foundation
 
-class CalculatorTests: XCTestCase {
+extension Date {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var year: Int {
+        get {
+            let calendar = NSCalendar.current
+            return calendar.component(.year, from: self as Date)
+        }
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    var month: Int {
+        get {
+            let calendar = NSCalendar.current
+            return calendar.component(.month, from: self as Date)
+        }
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    var day: Int {
+        get {
+            let calendar = NSCalendar.current
+            return calendar.component(.day, from: self as Date)
         }
     }
     
