@@ -25,24 +25,18 @@ import Foundation
 extension Date {
     
     var year: Int {
-        get {
-            let calendar = NSCalendar.current
-            return calendar.component(.year, from: self as Date)
-        }
+        let calendar = NSCalendar.current
+        return calendar.component(.year, from: self as Date)
     }
     
     var month: Int {
-        get {
-            let calendar = NSCalendar.current
-            return calendar.component(.month, from: self as Date)
-        }
+        let calendar = NSCalendar.current
+        return calendar.component(.month, from: self as Date)
     }
     
     var day: Int {
-        get {
-            let calendar = NSCalendar.current
-            return calendar.component(.day, from: self as Date)
-        }
+        let calendar = NSCalendar.current
+        return calendar.component(.day, from: self as Date)
     }
     
 }

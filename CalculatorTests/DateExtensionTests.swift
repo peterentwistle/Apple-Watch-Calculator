@@ -26,7 +26,7 @@ import XCTest
 class DateExtensionTests: XCTestCase {
    
     func testYearIsCorrect() {
-        let date1: Date = Date(timeIntervalSince1970: 0)
+        let date1 = Date(timeIntervalSince1970: 0)
         XCTAssert(date1.year == 1970)
         
         let date2 = Date(timeIntervalSinceReferenceDate: 0)
@@ -34,8 +34,8 @@ class DateExtensionTests: XCTestCase {
     }
     
     func testMonthIsCorrect() {
-        let date1 = Date(timeIntervalSince1970: 0)
-        XCTAssert(date1.month == 1)
+        let date = Date(timeIntervalSince1970: 0)
+        XCTAssert(date.month == 1)
     }
     
     func testDayIsCorrect() {
