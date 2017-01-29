@@ -1,6 +1,6 @@
-//  CalculatorTests.swift
+//  DateExtensionTests.swift
 //
-//  Copyright (c) 2015 Peter Entwistle
+//  Copyright (c) 2016 Peter Entwistle
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,28 +23,24 @@
 import XCTest
 @testable import TinyWatchCalc
 
-class CalculatorTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class DateExtensionTests: XCTestCase {
+   
+    func testYearIsCorrect() {
+        let date1 = Date(timeIntervalSince1970: 0)
+        XCTAssert(date1.year == 1970)
+        
+        let date2 = Date(timeIntervalSinceReferenceDate: 0)
+        XCTAssert(date2.year == 2001)
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+    func testMonthIsCorrect() {
+        let date = Date(timeIntervalSince1970: 0)
+        XCTAssert(date.month == 1)
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testDayIsCorrect() {
+        let date = Date(timeIntervalSince1970: 0)
+        XCTAssert(date.day == 1)
     }
     
 }

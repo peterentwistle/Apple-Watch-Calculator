@@ -24,10 +24,10 @@ import WatchKit
 import Foundation
 
 enum Operator {
-    case Addition
-    case Subtract
-    case Multiply
-    case Divide
+    case addition
+    case subtract
+    case multiply
+    case divide
 }
 
 extension String {
@@ -91,25 +91,25 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func addition() {
-        selectedOperator = .Addition
+        selectedOperator = .addition
         changeBackgroundColours(additionBtn)
         resetDecimal()
     }
     
     @IBAction func subtract() {
-        selectedOperator = .Subtract
+        selectedOperator = .subtract
         changeBackgroundColours(subtractBtn)
         resetDecimal()
     }
     
     @IBAction func multiply() {
-        selectedOperator = .Multiply
+        selectedOperator = .multiply
         changeBackgroundColours(multiplyBtn)
         resetDecimal()
     }
     
     @IBAction func divide() {
-        selectedOperator = .Divide
+        selectedOperator = .divide
         changeBackgroundColours(divideBtn)
         resetDecimal()
     }
@@ -117,13 +117,13 @@ class InterfaceController: WKInterfaceController {
     @IBAction func equals() {
         let result: Float
         switch selectedOperator! {
-        case .Addition:
+        case .addition:
             result = firstNum.floatValue + secondNum.floatValue
-        case .Subtract:
+        case .subtract:
             result = firstNum.floatValue - secondNum.floatValue
-        case .Multiply:
+        case .multiply:
             result = firstNum.floatValue * secondNum.floatValue
-        case .Divide:
+        case .divide:
             result = firstNum.floatValue / secondNum.floatValue
         }
         resultLabel.setText(result.description)
@@ -147,8 +147,8 @@ class InterfaceController: WKInterfaceController {
         }
     }
     
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         // Configure interface objects here.
         operatorButtons.append(divideBtn)
         operatorButtons.append(multiplyBtn)
@@ -166,7 +166,7 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
-    func addToDisplay(s: Character) {
+    func addToDisplay(_ s: Character) {
         if let _ = selectedOperator {
             secondNum.append(s)
             resultLabel.setText(secondNum)
@@ -176,7 +176,7 @@ class InterfaceController: WKInterfaceController {
         }
     }
     
-    func changeBackgroundColours(selectedButton: WKInterfaceButton) {
+    func changeBackgroundColours(_ selectedButton: WKInterfaceButton) {
         for button in operatorButtons {
             if button == selectedButton {
                 setButtonBackgroundColourGreen(button)
@@ -186,12 +186,12 @@ class InterfaceController: WKInterfaceController {
         }
     }
     
-    func setButtonBackgroundColourGreen(button: WKInterfaceButton) {
-        button.setBackgroundColor(UIColor.greenColor())
+    func setButtonBackgroundColourGreen(_ button: WKInterfaceButton) {
+        button.setBackgroundColor(UIColor.green)
     }
     
-    func resetButtonBackgroundColour(button: WKInterfaceButton) {
-        button.setBackgroundColor(UIColor.darkGrayColor())
+    func resetButtonBackgroundColour(_ button: WKInterfaceButton) {
+        button.setBackgroundColor(UIColor.darkGray)
     }
     
     func resetDecimal() {
