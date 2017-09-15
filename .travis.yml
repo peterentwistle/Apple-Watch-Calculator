@@ -1,4 +1,4 @@
 language: objective-c
-osx_image: xcode8.2
+osx_image: xcode9
 script:
-  xcodebuild -project TinyWatchCalc.xcodeproj -destination 'platform=iOS Simulator,id=7B6F8C6B-B67A-4F64-BB70-AE1FF077ACC2,OS=10.2' -scheme Calculator build test
+  xcodebuild -project TinyWatchCalc.xcodeproj -destination 'platform=iOS Simulator,id=5F22BAE5-1DB2-43CC-8983-5C4EE1BA37E7,OS=11.0' -scheme Calculator build test
