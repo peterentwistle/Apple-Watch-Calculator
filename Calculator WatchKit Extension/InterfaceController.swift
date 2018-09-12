@@ -77,7 +77,7 @@ class InterfaceController: WKInterfaceController {
     @IBAction func six() {
         addToDisplay("6")
     }
-
+    
     @IBAction func seven() {
         addToDisplay("7")
     }
@@ -155,12 +155,12 @@ class InterfaceController: WKInterfaceController {
         operatorButtons.append(subtractBtn)
         operatorButtons.append(additionBtn)
     }
-
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
     }
-
+    
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
