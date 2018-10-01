@@ -1,42 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8173.3" systemVersion="15A244d" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8089"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchCalc_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TinyWatchCalc" customModuleProvider="target">
                     <items>
                         <group width="1" alignment="left" id="Kco-U2-T51">
                             <items>
-                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="÷" id="wwT-F4-xK8">
-                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <button width="0.29999999999999999" height="27" alignment="center" verticalAlignment="bottom" title="÷" id="wwT-F4-xK8">
+                                    <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="21"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="25"/>
                                     <connections>
                                         <action selector="divide" destination="AgC-eL-Hgc" id="1Gr-po-7L7"/>
                                     </connections>
                                 </button>
-                                <label width="0.59999999999999998" alignment="center" verticalAlignment="bottom" text="0" textAlignment="right" id="qOJ-5J-pLs"/>
+                                <label width="0.59999999999999998" height="1" alignment="center" verticalAlignment="bottom" text="0" textAlignment="right" id="qOJ-5J-pLs"/>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="WbW-DK-4HJ">
                             <items>
-                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="x" id="AC8-fh-xTv">
-                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <button width="0.29999999999999999" height="27" alignment="center" verticalAlignment="bottom" title="x" id="AC8-fh-xTv">
+                                    <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="21"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="25"/>
                                     <connections>
                                         <action selector="multiply" destination="AgC-eL-Hgc" id="LzW-J8-CcQ"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="-" id="Qj4-cR-TFa">
-                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <button width="0.29999999999999999" height="27" alignment="center" verticalAlignment="bottom" title="-" id="Qj4-cR-TFa">
+                                    <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="21"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="25"/>
                                     <connections>
                                         <action selector="subtract" destination="AgC-eL-Hgc" id="Xbg-5f-93Y"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="21" alignment="center" verticalAlignment="bottom" title="+" id="VjG-JI-Ngy">
-                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <button width="0.29999999999999999" height="27" alignment="center" verticalAlignment="bottom" title="+" id="VjG-JI-Ngy">
+                                    <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="21"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="25"/>
                                     <connections>
                                         <action selector="addition" destination="AgC-eL-Hgc" id="vCs-07-faz"/>
                                     </connections>
@@ -45,17 +61,26 @@
                         </group>
                         <group width="1" alignment="left" id="16b-H1-i8L">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="7" id="2Hq-d6-8tE">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="7" id="2Hq-d6-8tE">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="seven" destination="AgC-eL-Hgc" id="qbw-hI-CRw"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="8" id="ro6-ud-agn">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="8" id="ro6-ud-agn">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="eight" destination="AgC-eL-Hgc" id="ah2-ew-ODp"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="9" id="8nU-VE-0aW">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="9" id="8nU-VE-0aW">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="nine" destination="AgC-eL-Hgc" id="2Kg-4y-Rjh"/>
                                     </connections>
@@ -64,17 +89,26 @@
                         </group>
                         <group width="1" alignment="left" id="Hiu-7h-Ny1">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="4" id="igD-b2-awd">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="4" id="igD-b2-awd">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="four" destination="AgC-eL-Hgc" id="Jkb-In-beo"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="5" id="5Pf-sE-SVn">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="5" id="5Pf-sE-SVn">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="five" destination="AgC-eL-Hgc" id="MUu-p0-Uj3"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="6" id="T30-rD-6HO">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="6" id="T30-rD-6HO">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="six" destination="AgC-eL-Hgc" id="kGf-IV-9Tr"/>
                                     </connections>
@@ -83,17 +117,26 @@
                         </group>
                         <group width="1" alignment="left" id="xqg-G9-aH3">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="1" id="t5y-YA-ozc">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="1" id="t5y-YA-ozc">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="one" destination="AgC-eL-Hgc" id="3CQ-Bh-whe"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="2" id="Mcf-w2-xZL">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="2" id="Mcf-w2-xZL">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="two" destination="AgC-eL-Hgc" id="ds3-US-Bl0"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="3" id="Dff-Af-2qM">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="3" id="Dff-Af-2qM">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="three" destination="AgC-eL-Hgc" id="rWt-JP-5fJ"/>
                                     </connections>
@@ -102,18 +145,27 @@
                         </group>
                         <group width="1" alignment="left" id="KRf-i4-40K">
                             <items>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="0" id="Nbl-EA-Bk5">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="0" id="Nbl-EA-Bk5">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="zero" destination="AgC-eL-Hgc" id="LY5-WC-DJP"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="." id="ip8-Yu-PKq">
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="." id="ip8-Yu-PKq">
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="decimal" destination="AgC-eL-Hgc" id="Zeg-4z-ksE"/>
                                     </connections>
                                 </button>
-                                <button width="0.29999999999999999" height="22" alignment="center" verticalAlignment="bottom" title="=" id="QXG-xD-wZ3">
-                                    <color key="backgroundColor" red="0.76207010582010581" green="0.46460173146584349" blue="0.10296112633867523" alpha="1" colorSpace="calibratedRGB"/>
+                                <button width="0.29999999999999999" height="28" alignment="center" verticalAlignment="bottom" title="=" id="QXG-xD-wZ3">
+                                    <color key="backgroundColor" red="0.76207010582010581" green="0.46460173146584349" blue="0.10296112633867523" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="device=watch38mm" height="22"/>
+                                    <variation key="device=watch40mm" height="24"/>
+                                    <variation key="device=watch42mm" height="26"/>
                                     <connections>
                                         <action selector="equals" destination="AgC-eL-Hgc" id="c2v-ha-6hP"/>
                                     </connections>
