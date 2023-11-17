@@ -334,11 +334,13 @@
 					};
 					D059E55A1B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WQG87JK36G;
 						LastSwiftMigration = 1100;
 						TestTargetID = D059E5461B76ADB0001E76EC;
 					};
 					D059E5651B76ADB0001E76EC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WQG87JK36G;
 						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D059E5461B76ADB0001E76EC;
@@ -656,9 +658,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
+                DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
@@ -677,9 +681,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
+                DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = "Calculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
@@ -699,10 +705,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
 				DEVELOPMENT_TEAM = WQG87JK36G;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "";
@@ -722,10 +729,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
 				DEVELOPMENT_TEAM = WQG87JK36G;
 				IBSC_MODULE = Calculator_WatchKit_Extension;
 				INFOPLIST_FILE = "Calculator WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator.watchkitapp;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "";
@@ -745,10 +753,12 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "";
@@ -764,10 +774,12 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 117;
+				CURRENT_PROJECT_VERSION = 118;
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.Calculator;
 				PRODUCT_NAME = TinyWatchCalc;
 				PROVISIONING_PROFILE = "";
@@ -781,6 +793,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
@@ -797,6 +810,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = CalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorTests;
@@ -814,7 +828,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
@@ -834,7 +848,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WQG87JK36G;
 				INFOPLIST_FILE = CalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.peterentwistle.CalculatorUITests;
