@@ -32,3 +32,4 @@ DerivedData/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
+.DS_Store

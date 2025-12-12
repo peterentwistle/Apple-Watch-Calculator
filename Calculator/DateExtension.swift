@@ -23,7 +23,7 @@
 import Foundation
 
 extension Date {
-    
+
     var year: Int {
         let calendar = NSCalendar.current
         return calendar.component(.year, from: self as Date)
@@ -38,5 +38,4 @@ extension Date {
         let calendar = NSCalendar.current
         return calendar.component(.day, from: self as Date)
     }
-    
 }

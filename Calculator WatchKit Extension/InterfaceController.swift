@@ -37,7 +37,6 @@ extension String {
 }
 
 class InterfaceController: WKInterfaceController {
-    
     var firstNum = String()
     var secondNum = String()
     var selectedOperator: Operator?
@@ -197,5 +196,4 @@ class InterfaceController: WKInterfaceController {
     func resetDecimal() {
         usedDecimal = false
     }
-    
 }

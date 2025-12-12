@@ -27,7 +27,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var copyBtn: UIButton!
     
     @IBAction func copyBtn(_ sender: UIButton) {
-        UIApplication.shared.openURL(URL(string: "http://peterentwistle.co.uk")!)
+        if let url = URL(string: "https://peterentwistle.co.uk") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
     }
     
     override func viewDidLoad() {
@@ -40,5 +42,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
